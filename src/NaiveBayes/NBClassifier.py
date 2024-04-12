@@ -43,6 +43,7 @@ class NBClassifier:
 
         label_occurences = self.getOccurences()
         print(label_occurences)
+        print(train_means.shape)
         
         #Finding mean for each label type
         for i in range(0,len(self.train_data)):
